@@ -1,0 +1,178 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+
+
+ /* Путь */
+.wrapper{
+    margin-right: 50px;
+    position: relative;
+    animation: green-bus 7s infinite;
+}
+
+
+ /* Стилизация машинки */
+.bus-body{
+    position: absolute;
+    top: 650px;
+    margin: 0;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 20px;
+}
+
+.bus-table-1{
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    margin: 0;
+    background-color: burlywood;
+    width: 70px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.bus-table-2{
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    margin: 0;
+    background-color:silver ;
+    width: 40px;
+    height: 25px;
+}
+
+.bus-table-number{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 14px;
+}
+
+.bus-table-text{
+    position: absolute;
+    top: 3px;
+    left: 2px;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.bus-door{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    margin: 0;
+    background-color: black;
+    width: 20px;
+    height: 40px;
+}
+
+.bus-door_2{
+    position: absolute;
+    top: 50px;
+    left: 62px;
+    margin: 0;
+    background-color: black;
+    width: 20px;
+    height: 40px;
+}
+
+.bus-window{
+    position: absolute;
+    top: 25px;
+    left: 130px;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.527);
+    width: 60px;
+    height: 30px;
+}
+
+.bus-first_wheel{
+    position: absolute;
+    top: 98px;
+    left: 10px;
+    margin: 0;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.bus-second_wheel{
+    position: absolute;
+    top: 98px;
+    left: 153px;
+    margin: 0;
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.disk-1{
+    position: absolute;
+    top: 10px;
+    left: 9.5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.disk-2{
+    position: absolute;
+    top: 10px;
+    left: 9.5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+
+.capot{
+
+    position: absolute;
+    top: -39px;
+    left: 30px;
+    margin: 0;
+    background-color: yellow;
+    width: 50px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.light{
+
+    position: absolute;
+    top: 80px;
+    left: 215px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: grey;
+
+}
+
+
+
+
+
+ /* Анимация */
+@keyframes green-bus {
+    0%{
+        left: 0px;
+    }
+
+    100%{
+        left: 85%;
+    }
+}
